@@ -12,7 +12,7 @@ npm install -D karma-jasmine karma-chrome-launcher jasmine-core
  npx karma run
 
 # Addons 
-## verbessert den Report
+- verbessert den Report
 npm install -D karma-mocha-reporter
-## info
+- info
 in der karma.conf.js unter reporters: den Wert ['mocha'] eintragen.
