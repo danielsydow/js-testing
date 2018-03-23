@@ -1,5 +1,7 @@
 # js-testing with karma, jasemine and mocha
 
+...
+
 # Installation
 npm install
 
