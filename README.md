@@ -13,6 +13,11 @@ npm install -D karma-jasmine karma-chrome-launcher jasmine-core
 # Karma service start
  npx karma run
 
+# Karma execute 
+- progress start with the testing
+- result are in the shell
+karma start 
+
 # Addons 
 - better view/ report
 
