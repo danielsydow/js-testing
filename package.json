@@ -1,28 +1,31 @@
-# js-testing with karma, jasemine and mocha
-
-...
-
-# Install
-npm install
-
-# Project Settings
-npm init
-npm install -D karma
-npm install -D karma-jasmine karma-chrome-launcher jasmine-core
-
-# Karma service start
- npx karma run
-
-# Karma execute 
-- progress start with the testing
-- result are in the shell
-
-karma start 
-
-# Addons 
-- better view/ report
-
-npm install -D karma-mocha-reporter
-- info
-
-in the karma.conf.js under reporters: set ['mocha'] in.
+{
+  "name": "js-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielsydow/js-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-core": "^2.99.1",
+    "jasmine-jquery": "^2.1.1",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.1",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-safari-launcher": "^1.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "bugs": {
+    "url": "https://github.com/danielsydow/js-testing/issues"
+  },
+  "homepage": "https://github.com/danielsydow/js-testing#readme",
+  "description": ""
+}
