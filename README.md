@@ -7,7 +7,9 @@ npm install
 
 # Project Settings
 npm init
+
 npm install -D karma
+
 npm install -D karma-jasmine karma-chrome-launcher jasmine-core
 
 # Karma service start
