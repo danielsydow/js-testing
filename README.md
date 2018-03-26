@@ -25,6 +25,6 @@ karma start
 - better view/ report in the shell
 
 npm install -D karma-mocha-reporter
-- config changes for mocha
+- config change for mocha
 
 in the karma.conf.js under reporters: set ['mocha'] in.
